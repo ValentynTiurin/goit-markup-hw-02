@@ -82,10 +82,11 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
   background: #4d5ae5;
   color: #ffffff;
 }
@@ -93,4 +94,25 @@
 .modal-btn:hover,
 .modal-btn:focus {
   background: #404bbf;
+}
+
+.filter-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background: #404bbf;
+
+  color: #ffffff;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background: #f4f4fd;
+  color: #4d5ae5;
 }

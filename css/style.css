@@ -6,6 +6,11 @@
   text-decoration: none;
 }
 
+.body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
+
 .logotype {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -15,9 +20,6 @@
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* NAVY BLUE */
-
   color: #2e2f42;
 }
 
@@ -30,9 +32,6 @@
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* IRIS */
-
   color: #4d5ae5;
 }
 
@@ -42,24 +41,12 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
   color: #2e2f42;
 }
 
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
-}
-
-.active-underline:active {
-  /* position: absolute;
-  width: 48px;
-  height: 4px;
-  left: 0px;
-  top: 48px;
-  background: #404bbf;
-  border-radius: 2px; */
 }
 
 .contact-information {
@@ -115,4 +102,91 @@
 .filter-btn:focus {
   background: #f4f4fd;
   color: #4d5ae5;
+}
+
+.hero-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background: #2e2f42;
+  color: #ffffff;
+}
+
+.hero {
+  /* position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px; */
+  /* background: #2e2f42; */
+}
+
+.advantages-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.advantages-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.title-doing,
+.title-team {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.employee-names,
+.filter-categories {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.job-title,
+.service-type {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background: #2e2f42;
+  color: #e7e9fc;
 }

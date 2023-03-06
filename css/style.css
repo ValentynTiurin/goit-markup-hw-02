@@ -20,7 +20,10 @@
 
 .body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
+  color: var(--text);
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 .logotype {
@@ -61,6 +64,10 @@
   color: #404bbf;
 }
 
+.current {
+  color: var(--pressed-state);
+}
+
 .contact-information {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -68,13 +75,13 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 
 .contact-information:hover,
 .contact-information:focus,
 .contact-information:active {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 
 .modal-btn {
@@ -92,7 +99,7 @@
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #404bbf;
+  background: var(--pressed-state);
 }
 
 .filter-btn {
@@ -105,15 +112,14 @@
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background: #404bbf;
-
-  color: #ffffff;
+  background: var(--light);
+  color: var(--primary-brand);
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-  background: #f4f4fd;
-  color: #4d5ae5;
+  background: var(--pressed-state);
+  color: var(--light);
 }
 
 .hero-title {
@@ -124,7 +130,6 @@
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  background: #2e2f42;
   color: #ffffff;
 }
 
@@ -134,7 +139,7 @@
   height: 600px;
   left: 0px;
   top: 72px; */
-  /* background: #2e2f42; */
+  background: var(--dark);
 }
 
 .advantages-title {
@@ -142,18 +147,15 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  /* identical to box height, or 120% */
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
 }
 
 .advantages-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 
 .title-doing,
@@ -165,7 +167,16 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--dark);
+}
+
+.title-team {
+  /* position: absolute;
+  width: 1440px;
+  height: 732px;
+  left: 0px;
+  top: 1548px; */
+  background-color: var(--light);
 }
 
 .employee-names,
@@ -177,7 +188,7 @@
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
 }
 
 .job-title,
@@ -189,7 +200,15 @@
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
+}
+
+.main-footer {
+  background-color: var(--dark);
+}
+
+.logo-studio {
+  color: var(--light);
 }
 
 .footer-text {
@@ -199,6 +218,5 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background: #2e2f42;
-  color: #e7e9fc;
+  color: var(--accent);
 }
